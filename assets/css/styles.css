@@ -1,0 +1,157 @@
+* {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.main {
+    background-image: linear-gradient(to bottom, #8cc7f8e8, rgba(50, 126, 212, 0.85));
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c {
+    width: 800px;
+    padding: 30px 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.text {
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    text-shadow: 0 4px 4px rgb(111 146 243), 0 4px 4px rgb(57 38 224);
+    margin-bottom: 30px;
+}
+
+.text:hover {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.mouseover {
+    font-size: 60px;
+}
+
+.c_t {
+    display: flex;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    position: relative;
+}
+
+.c_input {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background: #efeeee;
+    /*color: #c4c1c1;*/
+    padding: 0 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 17px;
+}
+
+.c_input:hover{
+    font-size: 20px;
+}
+
+.add {
+    font-family: 'Rock Salt', cursive;
+    background: #5FADEC;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.add:hover {
+    cursor: pointer;
+    background: #0c65aa;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.c_n {
+    font-family: 'Akaya Telivigala', cursive;
+    position: absolute;
+    z-index: 99;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    box-shadow: 0 0 3px .1px #a09f9f;
+    text-indent: 20px;
+    padding: 10px 0;
+    background: #ffffff;
+    border-radius: 3px;
+
+}
+
+.c_n > div {
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.c_n > div:hover {
+    cursor: pointer;
+    background: #d0cece;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.loca {
+    width:calc(100% + 10px);
+    display: block;
+    margin-top: 20px;
+}
+
+.loca > div {
+    padding: 20px 0;
+    border-radius: 10px;
+    text-indent: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.loca>div>text{
+    font-size: 25px;
+}
+.bg{
+    background: #c9c3c3;
+}
+.i{
+   height: 23px;
+    width: 16px;
+    margin-right: 10px;
+
+}
+.del{
+    background:url("../img/del.png") no-repeat;
+    background-size: 100%;
+}
+.del1{
+    background:url("../img/del1.png") no-repeat;
+    background-size: 100%;
+}
